@@ -12,14 +12,14 @@ const contactInfo = [
     details: ["+234 816 308 7191", "+234 708 290 1388"],
   },
   {
-    icon: MapPin,
-    title: "Head Office",
-    details: ["No 2, Benin Sapele Road,", "Ologbo Benin City, Edo State"],
+    icon: Mail,
+    title: "Email Address",
+    details: ["info@sinoricglobal.com"],
   },
   {
     icon: MapPin,
-    title: "Branch Office",
-    details: ["No 107 Uselu Lagos Road,", "Benin City, Edo State"],
+    title: "Head Office",
+    details: ["No 2, Benin Sapele Road,", "Ologbo Benin City, Edo State"],
   },
   {
     icon: Clock,

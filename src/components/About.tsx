@@ -3,22 +3,22 @@ import { CheckCircle2, Target, Users, Lightbulb } from "lucide-react";
 
 const values = [
   {
+    icon: Lightbulb,
+    title: "Our Vision",
+    description:
+      "Our vision is to be the choice provider of efficient technology-focused support services and ancillary products in the oil and gas industry, and in general contracts, while ensuring the safety and well-being of our employees, communities, and the environment.",
+  },
+  {
     icon: Target,
     title: "Our Mission",
     description:
-      "To provide exceptional services across all our sectors, delivering value through innovation, integrity, and commitment to excellence.",
+      "Our mission is to leverage our technical expertise and industry experience to responsibly and ethically explore, and deliver high-quality services to meet the growing demand in the Nigeria oil and gas sector and beyond. We are committed to maximizing the value of our resources and assets while maintaining the highest standards of operational excellence, environmental stewardship, and social responsibility. We aim to continue to set up and provide tailor made services to clients' needs.",
   },
   {
     icon: Users,
     title: "Our Team",
     description:
-      "A dedicated team of professionals with extensive experience and expertise in oil & gas, construction, and business management.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Our Vision",
-    description:
-      "To become the leading multi-sector company in Nigeria, recognized for quality, reliability, and sustainable business practices.",
+      "The company is built upon a strong reputation for quality workmanship, unrivaled reliability, and good project management. We provide a wide range of services adapted to suit projects and their contractual requirements. We work closely with our clients to understand their requirements and provide tailor-made solutions that meet their specific needs.",
   },
 ];
 
@@ -51,11 +51,14 @@ const About = () => {
               <span className="text-gradient-gold">Excellence</span> &
               Reliability
             </h2>
+            <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
+              SINORIC GLOBAL RESOURCES LTD is a Nigeria-based company, duly registered with the Corporate Affairs Commission, with Registration No.1438060. This registration is under the Companies Allied Matters Decree 1990 of the Federal Republic of Nigeria.
+            </p>
+            <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
+              We carry out supply and sales of AGO, LPG, products, petroleum haulage, procurement solutions, technical manpower services, electricity and power, and general contracting services to clients operating both in the oil sector and other niches. Our company is dedicated to providing reliable, efficient, and cost-effective services to support the upstream and downstream operations of our clients.
+            </p>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              SINORIC GLOBAL RESOURCES LTD is a dynamic multi-sector company
-              headquartered in Benin City, Edo State, Nigeria. We have built our
-              reputation on delivering exceptional services and fostering
-              long-term partnerships with our clients.
+              We have a team of experienced professionals who are passionate about providing quality services. We have been privileged to have completed lots of projects awarded to us to the satisfaction of our clients.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mb-8">

@@ -1,4 +1,4 @@
-import { Phone, MapPin, Mail } from "lucide-react";
+import { Phone, MapPin, Mail, Globe, Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -27,6 +27,32 @@ const Footer = () => {
               Civil Works, Retail, Distribution, and General Contracts across
               Nigeria.
             </p>
+            <div className="flex gap-4">
+              <a
+                href="https://www.sinoricglobal.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-primary-foreground/10 hover:bg-accent/20 flex items-center justify-center transition-colors"
+              >
+                <Globe className="w-5 h-5 text-primary-foreground/60 hover:text-accent" />
+              </a>
+              <a
+                href="https://facebook.com/Sinoric-Global-Resources"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-primary-foreground/10 hover:bg-accent/20 flex items-center justify-center transition-colors"
+              >
+                <Facebook className="w-5 h-5 text-primary-foreground/60 hover:text-accent" />
+              </a>
+              <a
+                href="https://instagram.com/Sinoric_Global_Resources"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-primary-foreground/10 hover:bg-accent/20 flex items-center justify-center transition-colors"
+              >
+                <Instagram className="w-5 h-5 text-primary-foreground/60 hover:text-accent" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -60,6 +86,12 @@ const Footer = () => {
                   <p>+234 816 308 7191</p>
                   <p>+234 708 290 1388</p>
                 </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <Mail className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <p className="text-primary-foreground/60 text-sm">
+                  info@sinoricglobal.com
+                </p>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />

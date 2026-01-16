@@ -29,7 +29,7 @@ const Hero = () => {
           >
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 text-accent text-sm font-medium mb-6">
               <Shield className="w-4 h-4" />
-              Trusted Excellence Since Inception
+              Since 2017 | RC 1438060
             </span>
           </motion.div>
 
@@ -39,8 +39,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-4xl md:text-5xl lg:text-7xl font-display font-bold text-primary-foreground leading-tight mb-6"
           >
-            Building Tomorrow's{" "}
-            <span className="text-gradient-gold">Infrastructure</span> Today
+            Fueling Success,{" "}
+            <span className="text-gradient-gold">Building Trust</span>
           </motion.h1>
 
           <motion.p
@@ -80,7 +80,7 @@ const Hero = () => {
           >
             {[
               { icon: Globe, label: "Projects Completed", value: "150+" },
-              { icon: Award, label: "Years Experience", value: "10+" },
+              { icon: Award, label: "Years Experience", value: "7+" },
               { icon: Shield, label: "Happy Clients", value: "200+" },
               { icon: Globe, label: "Service Areas", value: "5" },
             ].map((stat, index) => (
